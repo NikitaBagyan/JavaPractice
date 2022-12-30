@@ -3,8 +3,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        rideRideable(new Car());
-        rideRideable(new Boat());
+        Car sedan = new Sedan();
+        sedan.carStart();
+       // rideRideable(new Boat());
     }
     public static void rideRideable(Rideable rideable){
 

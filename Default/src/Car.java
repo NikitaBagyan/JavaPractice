@@ -1,4 +1,4 @@
-public class Car extends Transport implements Rideable{
+public abstract class Car extends Transport implements Rideable{
     String brand;
     int speedHorse;
     boolean isAwd;
@@ -20,9 +20,8 @@ public class Car extends Transport implements Rideable{
     public float getAcceleration() {
         return acceleration;
     }
-    void carStart(){
-        System.out.println(brand + "wrum wrum");
-    }
+    abstract void carStart();
+
     public void ride(){
         System.out.println("Ridding car");
 
