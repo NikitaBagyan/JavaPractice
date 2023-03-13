@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaPractice:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaPractice_jar</output-path>
+    <root id="archive" name="JavaPractice.jar">
+      <element id="module-output" name="JavaPractice" />
+      <element id="module-output" name="Default" />
+    </root>
+  </artifact>
+</component>
